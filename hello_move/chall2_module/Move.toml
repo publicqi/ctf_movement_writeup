@@ -1,0 +1,10 @@
+[package]
+name = 'chall2_module'
+version = '1.0.0'
+[dependencies]
+AptosFramework = {git = "https://github.com/aptos-labs/aptos-core.git", subdir = 'aptos-move/framework/aptos-framework', rev = "main"}
+hello_move = {local = "../ctfmovement-2"}
+
+[addresses]
+chall2 = "_"
+ctfmovement = "_"
