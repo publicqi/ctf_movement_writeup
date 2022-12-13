@@ -1,0 +1,11 @@
+[package]
+name = 'chall3_module'
+version = '1.0.0'
+[dependencies]
+AptosFramework = {git = "https://github.com/aptos-labs/aptos-core.git", subdir = 'aptos-move/framework/aptos-framework', rev = "main"}
+swap = {local = "../ctfmovement-3"}
+
+[addresses]
+# Own addr
+ctfmovement = "_"
+chall3 = "_"
