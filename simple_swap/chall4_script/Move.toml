@@ -1,0 +1,13 @@
+[package]
+name = 'chall4_script'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[dependencies]
+simple-swap = {local = '../ctfmovement-4/'}
+
+[addresses]
+ctfmovement = '_'
